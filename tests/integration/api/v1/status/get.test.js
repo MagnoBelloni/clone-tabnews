@@ -11,7 +11,7 @@ test("GET to /api/v1/status should return 200", async () => {
 
     expect(databaseConfigurations.version).toBe('16.0')
 
-    expect(databaseConfigurations.max_connections).toBeGreaterThanOrEqual(100);
+    expect(databaseConfigurations.max_connections).toBeGreaterThanOrEqual(100)
 
-    expect(databaseConfigurations.current_connections).toBeGreaterThanOrEqual(1);
+    expect(databaseConfigurations.current_connections).toBeGreaterThanOrEqual(1)
 })
